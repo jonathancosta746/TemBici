@@ -1,0 +1,4 @@
+/*configurações basicas do browser, margem, cores, fontes...*/
+
+@import "./partials/_config.css";
+@import "./partials/_header.css";

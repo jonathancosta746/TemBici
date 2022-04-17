@@ -1,0 +1,93 @@
+header {
+    background: var(--color-background);
+    color: var(--color-primary-text);
+    display: grid;
+    grid-template-columns: 46% 54%;
+    grid-template-rows: 50px 1fr 60px;
+    grid-template-areas:    "logo logo"
+                            "text imagetop"
+                            "falsebtn imagetop";
+    padding: 25px 25px 0px 25px;
+}
+
+header .logo{
+    grid-area: logo;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+header .text{
+    grid-area: text;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+header .text h1{
+    font-family: "Mori-Gothic-Light", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+header .text p{
+    font-family: "Mori-Gothic-Light", sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    line-height:35px;
+}
+
+header .imagetop {
+    grid-area: imagetop;
+   
+}
+
+header .imagetop .principalimage {
+    width: 100%;
+    max-width: 1080px;
+}
+
+header .text .btn {
+    font-family: "Mori-Gothic-Light", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--color-blue);
+    color: var(--color-primary-text);
+    padding: 12px 24px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+header .text .btn:hover {
+    background-color: var(--color-primary-text);
+    color: var(--color-background);
+    opacity: 0.8;
+}
+
+header .falsebtn{
+    grid-area: falsebtn;
+    justify-content: center;
+    background: var(--color-primary-text);
+    border-radius: 32px 35px 0 0;
+    padding: 10px;
+    border: none;
+    margin-left: 5vh;
+    margin-right: 10vh;
+    
+}
+
+header .falsebtn .textbtn {
+    font-family: "Mori-Gothic-Light", sans-serif;
+    font-size: 15px;
+    background: var(--color-primary-text);
+    color: var(--color-blue); 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
