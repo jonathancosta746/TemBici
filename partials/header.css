@@ -67,18 +67,39 @@ header .text .btn:hover {
 
 header .falsebtn{
     grid-area: falsebtn;
+    font-family: "Mori-Gothic-Light", sans-serif;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     background: var(--color-primary-text);
     color: var(--color-blue); 
-    border-radius: 32px 32px 0 0;
+    border-radius: 29px 29px 0 0;
     padding: 10px;
     border: none;
     margin-left: 5vh;
     margin-right: 10vh;
-    
+    min-width: 480px;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-7px);
+        transform: translateY(-7px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-7px);
+        transform: translateY(-7px);
+    }
+}
+header .falsebtn .whatsimage:hover{
+    animation: bounce 3s infinite;
 }
 
 header .falsebtn .textbtn {
@@ -89,8 +110,7 @@ header .falsebtn .textbtn {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    gap: 10px;
-      
+    gap: 10px;     
 }
 
 /*=========MEDIA QUERIES (DISPOSITIVOS MÉDIOS) ==========*/
@@ -126,7 +146,11 @@ header .falsebtn .textbtn {
 
     header .falsebtn{
 
-            border-radius: 32px;
+            border-radius: 29px;
+}
+
+header .falsebtn .whatsimage:hover{
+    animation: none;
 }
 
     header .imagetop {
@@ -173,6 +197,10 @@ header .falsebtn .textbtn {
     header .falsebtn{
         margin-left: auto;
         margin-right: auto;
+}
+
+header .falsebtn .whatsimage:hover{
+    animation: none;
 }
 
     header .imagetop {
