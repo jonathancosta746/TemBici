@@ -57,6 +57,7 @@ header .text .btn {
     border: none;
     margin-top: 20px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 header .text .btn:hover {
@@ -83,6 +84,19 @@ header .falsebtn{
     min-width: 480px;
 }
 
+header .falsebtn span{
+    cursor: pointer;
+}
+
+
+header .falsebtn .whatsimage {
+    cursor: pointer;
+}
+
+header .falsebtn .whatsimage:hover{
+    animation: bounce 3s infinite;
+}
+
 @keyframes bounce {
     0%, 50%, 100%{
         -webkit-transform: translateY(0);
@@ -97,25 +111,10 @@ header .falsebtn{
         -webkit-transform: translateY(-7px);
         transform: translateY(-7px);
     }
-}
-
-header .falsebtn .whatsimage:hover{
-    animation: bounce 3s infinite;
-}
-
-header .falsebtn .textbtn {
-    font-family: "Mori-Gothic-Light", sans-serif;
-    font-size: 15px;
-    background: var(--color-primary-text);
-    color: var(--color-blue); 
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 10px;     
-}
+}    
 
 /*=========MEDIA QUERIES (DISPOSITIVOS MÉDIOS) ==========*/
-@media screen and (max-width:1020px){
+@media screen and (max-width:1160px){
     header {
         display: grid;
         grid-template-columns: 1fr;
