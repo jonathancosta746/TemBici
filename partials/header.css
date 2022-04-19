@@ -67,7 +67,10 @@ header .text .btn:hover {
 
 header .falsebtn{
     grid-area: falsebtn;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
     background: var(--color-primary-text);
     color: var(--color-blue); 
     border-radius: 32px 32px 0 0;
@@ -84,7 +87,6 @@ header .falsebtn .textbtn {
     background: var(--color-primary-text);
     color: var(--color-blue); 
     display: flex;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
@@ -101,33 +103,42 @@ header .falsebtn .textbtn {
                                 "text"
                                 "falsebtn" 
                                 "imagetop";
-        padding: 25px 25px 0px 25px;
-    }
+        padding: 40px 0px;
+}
     header .text h1{
         font-family: "Mori-Gothic-Light", sans-serif;
         font-size: 30px;
         font-weight: 550;
         padding-bottom: 20px;
-    }
+        
+}
     
     header .text p{
         font-family: "Mori-Gothic-Light", sans-serif;
         font-size: 14px;
         font-weight: 100;
-        line-height:25px;}
+        line-height:25px;
+}
 
     header .text .btn {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             margin-bottom: 20px;
-            }
-            
-        
-    header .falsebtn{ 
-        border-radius: 32px;
-        margin-bottom: 20px;
-        }
-
-
 }
+
+    header .falsebtn{
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 32px;
+}
+
+    header .imagetop {
+        margin-top: 20px;
+        padding: -20px;
+}
+}
+
 
 
 /*=========MEDIA QUERIES (DISPOSITIVOS PEQUENOS) ==========*/
@@ -141,36 +152,35 @@ header .falsebtn .textbtn {
                                 "falsebtn" 
                                 "imagetop";
         padding: 40px 0px;
-    }
+}
     header .text h1{
         font-family: "Mori-Gothic-Light", sans-serif;
         font-size: 30px;
         font-weight: 550;
         padding-bottom: 20px;
-    }
+}
     
     header .text p{
         font-family: "Mori-Gothic-Light", sans-serif;
         font-size: 14px;
         font-weight: 100;
-        line-height:25px;}
+        line-height:25px;
+}
 
     header .text .btn {
-        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
-        }
+}
         
-    header .falsebtn{ 
-        display: block;
+    header .falsebtn{
         margin-left: auto;
         margin-right: auto;
-        border-radius: 32px;
-        margin-bottom: 20px;
-        }
+}
 
-
+    header .imagetop {
+        margin-top: 20px;
+}
 }
 
 

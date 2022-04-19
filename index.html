@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tembici - Clone</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="/partials/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./partials/fonts.css">
 
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="/images/Logo-Tembici-branco.png" alt="Tembici">
+            <img src="./images/Logo-Tembici-branco.png" alt="Tembici">
         </div>
 
         <div class="text">
@@ -22,15 +22,17 @@
         </div>
     
         <div>
+            <a href="https://tembici.onelink.me/qcBR/site">
             <button class="falsebtn">
-                <a href="https://tembici.onelink.me/qcBR/site"><img class="whatsimage" src="/images/whats.png"></img>Compartilhe e não deixe seus amigos de fora</a> 
-            </button>
+                 <img class="whatsimage" src="./images/whats.png"></img>
+                 Compartilhe e não deixe seus amigos de fora
+            </button></a>
         </div>
 
-        <div class="imagetop">
-            <img class="principalimage" src="/images/imagehomedesktop.png">
-        </div>
-
+        <picture class="imagetop">
+            <source media="(max-width: 1020px)" srcset="./images/imagemhomebsb-mobile.png">
+            <img class="principalimage" src="./images/imagehomedesktop.png">
+    </picture>
     </header>
 </body>
 </html>
