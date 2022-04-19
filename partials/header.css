@@ -146,12 +146,8 @@ header .falsebtn .textbtn {
 }
 
     header .falsebtn{
-
-            border-radius: 29px;
-}
-
-header .falsebtn .whatsimage:hover{
-    animation: none;
+        min-width: 100px;
+        border-radius: 29px;
 }
 
     header .imagetop {
@@ -198,10 +194,7 @@ header .falsebtn .whatsimage:hover{
     header .falsebtn{
         margin-left: auto;
         margin-right: auto;
-}
-
-header .falsebtn .whatsimage:hover{
-    animation: none;
+        min-width: 200px;
 }
 
     header .imagetop {
