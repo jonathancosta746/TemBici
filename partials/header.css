@@ -121,15 +121,11 @@ header .falsebtn .textbtn {
 }
 
     header .text .btn {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
             margin-bottom: 20px;
 }
 
     header .falsebtn{
-            margin-left: auto;
-            margin-right: auto;
+
             border-radius: 32px;
 }
 
@@ -168,6 +164,7 @@ header .falsebtn .textbtn {
 }
 
     header .text .btn {
+        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
