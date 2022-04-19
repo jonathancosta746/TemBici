@@ -84,20 +84,21 @@ header .falsebtn{
 }
 
 @keyframes bounce {
-    0%, 20%, 60%, 100%{
+    0%, 50%, 100%{
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-    40% {
+    25% {
         -webkit-transform: translateY(-7px);
         transform: translateY(-7px);
     }
 
-    80% {
+    75% {
         -webkit-transform: translateY(-7px);
         transform: translateY(-7px);
     }
 }
+
 header .falsebtn .whatsimage:hover{
     animation: bounce 3s infinite;
 }
