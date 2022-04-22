@@ -85,13 +85,14 @@ header .falsebtn{
     min-width: 480px;
 }
 
-header .falsebtn span{
+header .falsebtn p{
     cursor: pointer;
 }
 
 
 header .falsebtn .whatsimage {
     cursor: pointer;
+    display:block;
 }
 
 header .falsebtn .whatsimage:hover{
