@@ -1,4 +1,5 @@
 header {
+    max-width: 1368px;
     background: var(--color-background);
     color: var(--color-primary-text);
     display: grid;
