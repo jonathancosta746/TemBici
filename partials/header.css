@@ -85,7 +85,7 @@ header .falsebtn{
     min-width: 480px;
 }
 
-header .falsebtn p{
+header .falsebtn span{
     cursor: pointer;
 }
 
