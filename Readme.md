@@ -11,16 +11,6 @@ O projeto é um clone da Langing Page da empresa TemBici, que atua da área de b
 ## Tecnologias Usadas
 HTML e CSS
 
-🇺🇸
-## How to view the project?
-It's avaliable on https://jonathancosta746.github.io/TemBici/
-
-## How does the project work?
-The project is a clone of the Langing Page of the company TemBici, which operates with shared bicycles in Brasília.
-
-## Technologies 
-HTML and CSS
-
 ##
 
 ![desktop](https://user-images.githubusercontent.com/26524921/164031113-ac317833-f389-406a-bd3e-aa0c3d1a82fc.png)
