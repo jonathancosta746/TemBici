@@ -6,7 +6,7 @@
 Através do link https://jonathancosta746.github.io/TemBici/
 
 ## Como funciona o projeto?
-O projeto é um clone da Langing Page da empresa TemBici, que atua da área de bicicletas compartilhadas em Brasília.
+O projeto é um clone do header do Landing Page da empresa TemBici, que atua da área de bicicletas compartilhadas em Brasília.
 
 ## Tecnologias Usadas
 HTML e CSS
